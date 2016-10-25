@@ -9,6 +9,7 @@ import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.widget.AppCompatSpinner;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.AttributeSet;
@@ -28,7 +29,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SingleSpinnerSearch extends Spinner implements OnCancelListener {
+public class SingleSpinnerSearch extends AppCompatSpinner implements OnCancelListener {
 	private static final String TAG = SingleSpinnerSearch.class.getSimpleName();
 	private List<KeyPairBoolData> items;
 	private String defaultText = "";
