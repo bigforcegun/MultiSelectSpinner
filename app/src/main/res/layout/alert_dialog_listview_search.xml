@@ -2,8 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginLeft="10dp"
-    android:layout_marginRight="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
@@ -26,7 +26,7 @@
             android:id="@+id/alertSearchListView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="0dp"
             android:cacheColorHint="@null"
             android:fadeScrollbars="true"
             android:fastScrollEnabled="true"
@@ -40,7 +40,6 @@
             android:layout_centerVertical="true"
             android:gravity="center"
             android:text="Not found!"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="@color/red" />
+            android:textAppearance="?android:attr/textAppearanceLarge" />
     </RelativeLayout>
 </LinearLayout>

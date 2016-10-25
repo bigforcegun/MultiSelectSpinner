@@ -1,21 +1,22 @@
 package com.androidbuts.multispinnerfilter;
 
-import android.app.AlertDialog;
+
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnCancelListener;
 import android.content.DialogInterface.OnMultiChoiceClickListener;
 import android.content.res.TypedArray;
+import android.support.v7.app.AlertDialog;
+import android.support.v7.widget.AppCompatSpinner;
 import android.util.AttributeSet;
 import android.widget.ArrayAdapter;
 
-import com.rey.material.widget.Spinner;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.TreeMap;
 
-public class MultiSpinner extends Spinner implements OnMultiChoiceClickListener, OnCancelListener {
+public class MultiSpinner extends AppCompatSpinner implements OnMultiChoiceClickListener, OnCancelListener {
 
     private List<String> items;
     private boolean[] selected;
